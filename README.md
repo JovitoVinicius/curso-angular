@@ -16,3 +16,7 @@ Angular Básico:
 
     Criando componentes via CLI: Com o terminal aberto, criei um novo componente chamado "schools", usando o comando "ng generate component schools" ou "ng g c schools", com esse comando ele faz o mesmo processo que o paragrafo anterior de maneira automática.
 
+    Trabalhando com templates: Dentro de "school.component.ts" utilizei o "TemplateUrl" que faz o uso de outro arquivo para mostrar no navegador as informações, esse arquivo é o "school.component.html". Porém, há outra forma de usar um template, que é através do uso de "Template" ao invés de "TemplateUrl", nesse método, o código que estaria dentro do arquivo externo usado pelo "TemplateUrl" é colocado dentro do método, e não o diretório do arquivo. Para ser mais expecifico, se o código for muito grande, usar o "TemplateUrl" é uma ótima solução, caso contrário, se o código for pequeno, o uso de "Template" é uma boa saida.
+
+    Trabalhando com estilo: De maneira semelhante aos templates, com os estilos funciona da mesma forma, porém o arquivo usado no "styleUrls" é o com final ".css" e não com final ".html", como no exemplo do próprio "app.component.ts" que foi usado o seguinte estilo: "styleUrls: ['./app.component.css']". Para customizar, basta criar dentro de app.component.css os estilos que quiser.
+

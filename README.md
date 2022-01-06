@@ -2,6 +2,10 @@ Me chamo Vinicius Jovito e esse é meu aprendizado em Angular!!
 
 Link do curso: https://cursos.dankicode.com/campus/curso-angular-completo
 
+O que é Angular?
+
+    É um framework javascript que permite a criação de Single Page Applications reativas, uma SPA se trata de uma aplicação de pagina uníca, ou seja, uma página onde todas as interações ocorrem em uma única pagina, sem os famosos "refresh", tudo por trás de um único HTML. Dessa maneira, a página é baixada através de um servidor de uma única vez, sendo assim, não há a necessidade de ficar realizado requests no servidor, pois a aplicação estará no Local Host, sendo muito mais rápido e melhorando a experiência de usuário.
+
 Angular Básico:
 
     Carregamento do Projeto: Ao usar o comando "ng serve", o primeiro arquivo a ser construido é o "main.ts", onde há um método "bootstrapModule" que referencia o módulo principal que irá executar. Em seguida, através do referenciamento, leva ao arquivo "app.module.ts". Ou seja, o arquivo "main.ts", chama o "app.module.ts" que chama o "app.component.ts" que tem como selector "app-root"(exemplo dado na aula).

@@ -6,5 +6,6 @@ import { Component } from "@angular/core";
 })
 
 export class SchoolComponent{
-
+    schoolId = 10;
+    schoolName = 'Iesb';
 }

@@ -20,3 +20,10 @@ Angular Básico:
 
     Trabalhando com estilo: De maneira semelhante aos templates, com os estilos funciona da mesma forma, porém o arquivo usado no "styleUrls" é o com final ".css" e não com final ".html", como no exemplo do próprio "app.component.ts" que foi usado o seguinte estilo: "styleUrls: ['./app.component.css']". Para customizar, basta criar dentro de app.component.css os estilos que quiser.
 
+    Databinding: É a comunicação entre o nosso typescript(lógica de negócio) com o HTML(Template), usando as variáveis do typescript e passando essas informações contidas em variaveis para o HTML(por dados de saida), há algumas formas de fazer isso, elas são: string interpolation, property binding, event binding e two way databinding.
+
+    String Interpolation: Criando variaveis dentro do arquivo typescript do app, é possivel passar para o HTML através do uso de chaves duplas "{{exemplo}}", pode ser usado também, classes, strings, nome de funções(que tenham algum return).
+
+    Property Binding: Utilizando funções no typescript, é possivel alterar as caracteristicas dentro do HTML, nessa aula vimos que ao criar a função "setTimeOut" conseguimos alterar o valor da variavel "aceitaNovaEscola", assim mudando uma propriedado do HTML que fazia que o botão criado no template ficasse desabilitado, assim ao final de tudo, a função fez com que o botão ficasse 3 segundos desabilitado logo então liberava ele.
+
+    

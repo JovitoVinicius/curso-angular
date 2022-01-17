@@ -1,2 +1,16 @@
+<label for="">Nome da Escola</label>
+<input type ="text" class="form-control" (input)="updateSchoolName($event)">
+<p>Clique no botão abaixo para inserir uma escola!!</p>
+
+<button class="btn btn-primary" 
+[disabled]="!aceitaNovaEscola"
+(click)="createSchoolStatus()"
+
+>Incluir</button>
+<p></p>
+
+<p>{{schoolName}}</p>
+<p>{{createNovaEscola}}</p>
+
 <app-school></app-school>
 
